@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+.conteiner {
+    background-color: rgb(44, 62, 80);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 24px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.portfolio:hover {
+    color: rgb(64, 235, 178);
+    transition: 400ms;
+}
+
+.about:hover {
+    color: rgb(63, 255, 191);
+    transition: 400ms;
+}
+
+.contact:hover {
+    color: rgb(65, 255, 192);
+    transition: 400ms;
+}
+
+.head_list {
+    gap: 30px;
+}
+
+.container_text {
+    color: white;
+    margin-right: 16px;
+    font-size: 24px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.hero {
+    background-color: rgb(26, 188, 156);
+    max-height: 100%;
+    min-height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sekil {
+    max-width: 15%;
+    display: flex;
+}
+
+.text {
+    color: white;
+    font-size: 64px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.star {
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.hr1 {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    background-color: white;
+    margin-top: 30px;
+    height: 3px;
+}
+
+.hr2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    background-color: white;
+    margin-top: 30px;
+    height: 3px;
+}
+
+.grafik {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.hero_portfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.port {
+    margin-top: 5%;
+    font-size: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(44, 62, 80);
+    text-transform: uppercase;
+    margin-left: 20%;
+}
+
+.port_hr1 {
+    border: 2px solid rgb(44, 62, 80);
+    border-radius: 5px;
+    background-color: rgb(44, 62, 80);
+    width: 110px;
+    position: relative;
+    top: 120%;
+    right: 260%;
+}
+
+.star_port {
+    position: relative;
+    top: 100%;
+    right: 150%;
+    font-size: 40px;
+    color: rgb(44, 62, 80);
+}
+
+.port_hr2 {
+    border: 2px solid rgb(44, 62, 80);
+    border-radius: 5px;
+    background-color: rgb(44, 62, 80);
+    width: 110px;
+    position: relative;
+    right: 100%;
+    top: 81%;
+}
+
+.bigconteiner {
+    max-width: 100%;
+}
+
+.hero_portfolio {
+    max-width: 90%;
+}
+
+.firts3_cards {
+    display: flex;
+    margin-top: 5%;
+    gap: 30px;
+    border-radius: 5px;
+    max-width: 80%;
+    margin-left: 10%;
+    justify-content: space-around;
+}
+
+.house {
+    border-radius: 7px;
+}
+
+.cake {
+    border-radius: 7px;
+}
+
+.cirk {
+    border-radius: 7px;
+}
+
+.last3cards {
+    display: flex;
+    margin-top: 2%;
+    gap: 30px;
+    border-radius: 5px;
+    max-width: 80%;
+    margin-left: 10%;
+    justify-content: space-around;
+}
+
+.console {
+    border-radius: 7px;
+}
+
+.case {
+    border-radius: 7px;
+}
+
+.ship {
+    border-radius: 7px;
+}
+
+.aboutcontainer {
+    background-color: rgb(26, 188, 156);
+    max-width: 100%;
+    min-height: 500px;
+    margin-top: 5%;
+}
+
+.about_about {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 55px;
+}
+
+.about_hr1 {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    background-color: white;
+    margin-top: 10px;
+    height: 3px;
+    margin-left: 40%;
+}
+
+.about_star {
+    color: white;
+    font-size: 40px;
+    margin-left: 48%;
+    margin-top: -30px;
+}
+
+.about_hr2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    background-color: white;
+    height: 3px;
+    margin-left: 52%;
+    margin-top: -17px;
+}
+
+.writes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.freelancer {
+    font-size: 1.25rem;
+    font-family: "Lato", sans-serif;
+    color: white;
+    max-width: 30%;
+}
+
+.you_can {
+    font-size: 1.25rem;
+    font-family: "Lato", sans-serif;
+    color: white;
+    display: flex;
+    max-width: 30%;
+}
+
+.download {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 15%;
+    color: white;
+    margin: auto;
+}
+
+.free_download {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.download:hover {
+    background-color: white;
+    color: black;
+    transition: 300ms;
+}
+
+.contact_me {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_div {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_icons {
+    display: flex;
+}
+
+.contact_me_div {
+    margin-top: 5%;
+    font-size: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(44, 62, 80);
+}
+
+.contact_hr1 {
+    border: 2px solid rgb(44, 62, 80);
+    border-radius: 5px;
+    background-color: rgb(44, 62, 80);
+    width: 110px;
+    position: relative;
+    height: 3px;
+    margin-top: 10%;
+}
+
+.contact_star {
+
+    font-size: 40px;
+}
+
+.contact_hr2 {
+    border: 2px solid rgb(44, 62, 80);
+    border-radius: 5px;
+    background-color: rgb(44, 62, 80);
+    width: 110px;
+    height: 3px;
+    left: 56%;
+    margin-top: 10%;
+}
+
+.form_contact {
+    display: grid;
+    position: relative;
+    top: 50%;
+    left: -100%;
+    row-gap: 20px;
+}
+
+.Full_name {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    width: 300%;
+    padding: 7%;
+    font-size: 50%;
+    font-family: "Lato", sans-serif;
+}
+
+.email {
+    border: 0px;
+    border-bottom: 1px solid grey;
+    width: 300%;
+    padding: 7%;
+    font-size: 50%;
+    font-family: "Lato", sans-serif;
+}
+.number{
+    border: 0px;
+    border-bottom: 1px solid grey;
+    width: 300%;
+    padding: 7%;
+    font-size: 50%;
+    font-family: "Lato", sans-serif;
+}
+.message{
+    border: 0px;
+    border-bottom: 1px solid grey;
+    width: 300%;
+    padding: 7%;
+    font-size: 50%;
+    font-family: "Lato", sans-serif
+}
+.send{
+    background-color:rgb(26, 188, 156);
+    padding: 20px;
+    width: 35%;
+    color: white;
+    border: 0px hidden;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: "Lato", sans-serif
+}
+.footer{
+    background-color: rgb(44, 62, 80);
+    padding: 50px;
+    margin-top: 5%;
+}
+.div_sec{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 5%;
+}
+.location{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    font-size:1.75rem;
+}
+.around{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    font-size:1.75rem;
+    max-width: 200%;
+}
+.freelancer_footer{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size:1.75rem;
+}
+.freelance_footer{
+    width: 75%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.footer_logos{
+    color: white;
+    margin-top:10% ;
+    display: flex;
+gap: 10px;
+}
+.Start{
+    color:rgb(26, 188, 156); 
+    text-decoration: underline;
+}
+.first_div{
+    text-align: center;
+    margin-left: -20%;
+}
+.second_div{
+    margin-left: 20%;
+}
+.third_div{
+    text-align: center;
+}
+.general_div{
+display: flex;
+margin-left: 20%;
+margin-top: 2%;
+}
+.face{
+    border: 2px white solid;
+    border-radius: 50%;
+    padding: 15px;
+}
+.twitt{
+    border: 2px white solid;
+    border-radius: 50%;
+    padding: 15px;
+}
+.linkedin{
+    border: 2px white solid;
+    border-radius: 50%;
+    padding: 15px;
+}
+.basket{
+    border: 2px white solid;
+    border-radius: 50%;
+    padding: 15px;
+}
+.twitt:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms;
+}.face:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms;
+}
+.linkedin:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms;
+}
+.basket:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms;
+}
